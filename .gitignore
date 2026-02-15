@@ -1,13 +1,25 @@
-# node
+# ---------- Node / React ----------
 node_modules/
 build/
+dist/
 .env
+*.log
 
-# python
+# ---------- Python ----------
 venv/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
 
-# OS
+# ---------- OS ----------
 .DS_Store
 Thumbs.db
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- Misc ----------
+coverage/
+*.sqlite3
